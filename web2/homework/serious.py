@@ -1,4 +1,15 @@
-from flask import Flask,render_template,request   
+from flask import Flask,render_template,request 
+import mlab  
+from mongoengine import Document, StringField, IntField
+mlab.connect()
+
+class Users(Document):
+  name = StringField()
+  email = StringField()
+  username = StringField()
+  password = StringField()
+
+
 app = Flask(__name__)
 
 @app.route('/register')
