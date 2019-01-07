@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <form action = "result" method = "POST">
+        <div >
+          <h1>Đăng Ký Tài Khoản</h1>
+          <br>
+      
+          <label for="Tên Đầy Đủ"><b>Tên Đầy Đủ</b></label>
+          <br>
+          <input type="text" placeholder="Nguyễn Minh Hoàng" name="Tên Đầy Đủ" required>
+          <br>
+
+          <label for="email"><b>Email</b></label>
+          <br>
+          <input type="text" pattern="[^ @]*@[^ @]*" title="Correct Form Of Email: abc@gmail.com" placeholder="Enter Email" name="Email" required>
+          <br>
+
+          <label for="tdn"><b>Tên Đăng Nhập</b></label>
+          <br>
+          <input type="text" placeholder="..." name="Tên Đăng Nhập" required>
+          <br>
+
+          <label for="psw"><b>Mật Khẩu</b></label>
+          <br>
+          <input type="password" id="psw" name="Mật Khẩu" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+          <br>
+          <br>
+          <p><input type = "submit" value = "Submit" /></p>
+
+          
+        </div>
+    </form>
+
+    
+</body>
+</html>

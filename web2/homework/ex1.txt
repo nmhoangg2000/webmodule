@@ -1,0 +1,2 @@
+In my post collection, there are no duplicate ids in the records.
+The information of this field presents the BSON data types and the associated representations in Strict mode and mongo Shell mode.
