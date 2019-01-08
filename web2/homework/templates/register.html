@@ -7,29 +7,29 @@
     <title>Register</title>
 </head>
 <body>
-    <form action = "result" method = "POST">
+    <form action = "register" method = "POST">
         <div >
           <h1>Đăng Ký Tài Khoản</h1>
           <br>
       
-          <label for="Tên Đầy Đủ"><b>Tên Đầy Đủ</b></label>
+          <label for="name"><b>Tên Đầy Đủ</b></label>
           <br>
-          <input type="text" placeholder="Nguyễn Minh Hoàng" name="Tên Đầy Đủ" required>
+          <input type="text" placeholder="Nguyễn Minh Hoàng" name="name" required>
           <br>
 
           <label for="email"><b>Email</b></label>
           <br>
-          <input type="text" pattern="[^ @]*@[^ @]*" title="Correct Form Of Email: abc@gmail.com" placeholder="Enter Email" name="Email" required>
+          <input type="text" pattern="[^ @]*@[^ @]*" title="Correct Form Of Email: abc@gmail.com" placeholder="Enter Email" name="email" required>
           <br>
 
-          <label for="tdn"><b>Tên Đăng Nhập</b></label>
+          <label for="username"><b>Tên Đăng Nhập</b></label>
           <br>
-          <input type="text" placeholder="..." name="Tên Đăng Nhập" required>
+          <input type="text" placeholder="..." name="username" required>
           <br>
 
-          <label for="psw"><b>Mật Khẩu</b></label>
+          <label for="password"><b>Mật Khẩu</b></label>
           <br>
-          <input type="password" id="psw" name="Mật Khẩu" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+          <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
 
           <br>
           <br>
