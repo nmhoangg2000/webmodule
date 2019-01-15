@@ -1,0 +1,40 @@
+* {
+    font-family: 'Coiny', cursive;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+.form_label {
+    min-width: 100px;
+    display: inline-block;
+
+}
+#btn_login {
+    float: right;
+    border-radius: 3px;
+    background-color: blue;
+    color: azure;
+    border: none;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+}
+
+.mb_2 {
+    margin-bottom:16px;
+
+}
+input {
+    border-radius: 3px;
+    border: solid 1px blue
+}
